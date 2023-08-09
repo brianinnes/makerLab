@@ -1,0 +1,51 @@
+site_name: Maker Lab
+site_author: Brian Innes
+site_description: hardware, software and projects from my home Make Lab
+repo_url: https://github.com/brianinnes/makerLab
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: light blue
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - content.action.edit
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - announce.dismiss
+plugins:
+  - search:
+      lang: en
+  #  - blog:
+  #      blog_dir: blog
+  #      blog_toc: true
+  #      post_date_format: medium
+  - tags
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+nav:
+  - Home: index.md
+  - Hardware:
+      - hardware/index.md
+      - Carvera: hardware/carvera.md
