@@ -29,6 +29,8 @@ plugins:
   #      post_date_format: medium
   - tags
 markdown_extensions:
+  - admonition
+  - attr_list
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.details
@@ -49,3 +51,6 @@ nav:
   - Hardware:
       - hardware/index.md
       - Carvera: hardware/carvera.md
+  - Activities:
+      - activities/index.md
+      - PCB creation: activities/pcd.md
