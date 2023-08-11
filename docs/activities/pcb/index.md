@@ -68,4 +68,3 @@ GCode files are sent to the Carvera machine using the manufacturer provided [Car
     - single sided board (with coating on one side - no silk screen)
     - single sided board (with coating both sides and silf screen)
     - 2-sided board with coating and silk screen
-
