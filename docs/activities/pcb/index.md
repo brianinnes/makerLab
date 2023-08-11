@@ -55,10 +55,9 @@ There are many good tutorials covering KiCad, so I won't provide details on this
 
 ### FlatCam
 
-Makera is creating a [CAM application](https://www.makera.com/pages/software#CarveraCAM){: target=_blank} that will eventually provide the functionality of converting Gerber files into machine gcode.  However, at the time of writing this software is still under construction, so there are 2 recommended applications.  [CopperCam](https://www.galaad.net/coppercam-eng.html){: target=_blank} and [FlatCam](http://flatcam.org){: target=_blank}.  CopperCam is windows only and requires a license to be purchased, as I use a Mac I am using FlatCam.  The install is not trivial so is covered in more detail
+Makera is creating a [CAM application](https://www.makera.com/pages/software#CarveraCAM){: target=_blank} that will eventually provide the functionality of converting Gerber files into machine gcode.  However, at the time of writing this software is still under construction, so there are 2 recommended applications.
 
-!!!Todo
-    Create FlatCam install instructions
+[CopperCam](https://www.galaad.net/coppercam-eng.html){: target=_blank} and [FlatCam](http://flatcam.org){: target=_blank}.  CopperCam is windows only and requires a license to be purchased, as I use a Mac I am using FlatCam.  The install is not trivial so is covered in more detail [on this site](flatcam.md)
 
 ### CarveraController
 
