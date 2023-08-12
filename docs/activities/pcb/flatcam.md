@@ -54,3 +54,8 @@ To use the active development version do the following:
 3. checkout the Beta_8.995 branch `git checkout -b Beta_8.995 origin/Beta_8.995`
 4. install dependencies with command `pip install -r requirements.txt`
 5. run FlatCam with command `python flatcam.py`
+
+## Configuring FlatCam for the Carvera
+
+!!!Todo
+    Create this section
