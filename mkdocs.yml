@@ -56,3 +56,6 @@ nav:
       - PCB creation:
           - activities/pcb/index.md
           - Install FlatCam: activities/pcb/flatcam.md
+          - PCB Workflow: activities/pcb/workflow.md
+  - Projects:
+      - projects/index.html
